@@ -9,9 +9,9 @@ on:
   push:
     branches:
     - master
-  schedule:
+  #schedule:
   # every day at midnight, to test against non-pinned versions in the matrix
-  - cron: '0 0 * * *'
+  #- cron: '0 0 * * *'
 
 jobs:
   test:
